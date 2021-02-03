@@ -1,13 +1,15 @@
 function mostrar()
 {
 	//tomo la edad  
-	if(txtIdEdad.value == 15)
+	let edad = document.getElementById("txtIdEdad").value;
+
+	if(edad == 15)
 	{
 		alert("Niña bonita");
 	}
 	else
 	{
-		alert("su edad es " + txtIdEdad.value);
+		alert("su edad es " + edad);
 	}
 
 }//FIN DE LA FUNCIÓN

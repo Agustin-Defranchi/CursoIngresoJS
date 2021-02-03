@@ -1,7 +1,9 @@
 function mostrar()
 {
 	//tomo la edad  
-	if(txtIdEdad.value >=13 && txtIdEdad.value <=17)
+	let edad = document.getElementById("txtIdEdad").value;
+	
+	if(edad >=13 && edad <=17)
 	{
 		alert("El usuario es adolecente");
 	}

@@ -1,7 +1,9 @@
 function mostrar()
 {
 	//tomo la edad  
-	if(txtIdEdad.value >= 18)
+	let edad = document.getElementById("txtIdEdad").value;
+	
+	if(edad >= 18)
 	{
 		alert("El usuario es mayor de edad");
 	}
