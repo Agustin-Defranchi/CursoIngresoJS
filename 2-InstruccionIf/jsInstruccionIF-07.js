@@ -2,7 +2,7 @@ function mostrar()
 {
 	//tomo la edad  
 
-	var indice = estadoCivil.selectedIndex;//llamo a la lista del select deseado
+	let indice = estadoCivil.selectedIndex;//llamo a la lista del select deseado
 	if(txtIdEdad.value < 18 && indice != 0)
 	{
 		alert("El usuario es demasiado chico para no estar soltero");

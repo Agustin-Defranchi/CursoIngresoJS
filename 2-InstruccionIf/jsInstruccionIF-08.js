@@ -1,7 +1,7 @@
 function mostrar()
 {
 	//tomo la edad  
-	var indice = estadoCivil.selectedIndex
+	let indice = estadoCivil.selectedIndex
 	if(txtIdEdad.value < 18 && indice != 0)
 	{
 
