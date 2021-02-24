@@ -76,12 +76,13 @@ color:black;
 
 
 
-.MiBotonUTNnav {
+.MiBotonUTNnav 
+{
   
   /*text-transform: capitalize;*/
   border:hidden;
   width:100%;
-  background:#f50056;
+  background:blue;
   margin:0 auto;
   margin-top:1%;
   padding:10px;
@@ -89,10 +90,7 @@ color:black;
   text-decoration:none;
   color:#fff;
   cursor:pointer;
-  -moz-border-radius:7px;
-  -webkit-border-radius:7px;
   border-radius:7px;
-  transition:background .3s;
   -webkit-transition:background .3s;
 }
 
